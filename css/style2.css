@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin-top: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #66BFBF; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #E4F6F6;
+    border-width: 8px;
+    width: 5%;
+    margin: 100px auto;
+  }
+
+.top-container {
+    background-color: #E4F6F6;
+    padding-top: 100px;
+    position: relative;
+}
+.h2 {
+    font-weight: normal;
+}
+
+.profile {
+    padding-top: 70px;
+}
+.profile img {
+    width: 12%;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.skill-row {
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.comp-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 15%;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 150px;
+    padding: 50px 0 0 0;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.middle-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.hello {
+    font-weight: 900;
+    line-height: 2;
+}
+
+.h3 {
+    margin-bottom: 30px;
+}
+
+.trade-mark {
+    color: #E4F6F6;
+    margin-top: 50px;
+}
+
+.footer-link {
+    margin: auto 20px auto;
+}
+
+.btn {
+    border-radius: 10px;
+    color: #E4F6F6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #11999E;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 50px;
+ }
+
+ .contact-me {
+     padding-bottom: 80px;
+ }
